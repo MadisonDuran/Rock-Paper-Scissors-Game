@@ -6,11 +6,13 @@
     <title>Rock, Paper, Scissors Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-        <h1>Rock, Paper, Scissors Game</h1>
-        <input type="text" id="userinput" placeholder="Type rock, paper or scissors">
-            <button onclick="playGame()">Play</button>
-            <p id="resultText"></p>
+<body class="game">
+        <h1 class="game__title">Rock, Paper, Scissors Game</h1>
+        <section class="game__input-group">
+        <input type="text" class="game__input" id="game__user-input" placeholder="Type rock, paper or scissors">
+            <button class="game__button" onclick="playGame()">Play</button>
+            </section>
+            <p class="game__result" id="game__result-text"></p>
     <script src="script.js"></script>
 </body>
 </html>
