@@ -40,3 +40,17 @@ function updateScoreboard() {
     document.getElementById("ties").textContent = ties;
     document.getElementById("total-games").textContent = wins + losses + ties;
 }
+
+function resetGame() {
+    wins = 0;
+    losses = 0;
+    ties = 0;
+
+    document.getElementById("wins").textContent = wins;
+    document.getElementById("losses").textContent = losses;
+    document.getElementById("ties").textContent = ties;
+    document.getElementById("total-games").textContent = wins + losses + ties;
+
+    document.getElementById("game__user-input").value = "";
+    document.getElementById("game__result-text").textContent = "Game reset. Start again!";
+}
