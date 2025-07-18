@@ -22,8 +22,7 @@ body {
     padding: 1.875rem 2.5rem;
     border-radius: 0.8rem;
     box-shadow: 0 0.3rem 1.3rem rgba(0, 0, 0, 0.1);
-    width: 90%;
-    max-width: 25rem;
+    width: 100%;
     text-align: center;
 }
 
@@ -71,3 +70,13 @@ body {
     margin-top: 0.6rem;
 }
 
+.game__scoreboard {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.game__scoreboard p {
+    margin: 0.5rem 0;
+}
