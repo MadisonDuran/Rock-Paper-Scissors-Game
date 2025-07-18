@@ -81,3 +81,12 @@ body {
     margin: 0.5rem 0;
 }
 
+.game__button--reset {
+    padding: 0.63rem;
+    background-color: rgb(255, 141, 215);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
