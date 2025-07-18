@@ -47,7 +47,7 @@ body {
     width: 100%;
 }
 
-.game__button {
+.game__button--play {
     padding: 0.63rem;
     background-color: rgb(149, 0, 255);
     color: rgb(255, 255, 255);
@@ -80,3 +80,4 @@ body {
 .game__scoreboard p {
     margin: 0.5rem 0;
 }
+
