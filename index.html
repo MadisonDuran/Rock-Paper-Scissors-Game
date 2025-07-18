@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors Game</title>
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="game">
+    <!-- Main content of the game -->
+    <main>
+        <!-- Game Title -->
         <h1 class="game__title">Rock, Paper, Scissors Game</h1>
         <section class="game__input-group">
         <input type="text" class="game__input" id="game__user-input" placeholder="Type rock, paper or scissors">
+        <!-- Button to play the game -->
             <button class="game__button" onclick="playGame()">Play</button>
-            </section>
             <p class="game__result" id="game__result-text"></p>
+        </section>
+    </main>
+    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>
