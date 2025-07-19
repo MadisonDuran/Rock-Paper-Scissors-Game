@@ -96,3 +96,70 @@ body {
     transform: scale(1.05);
     opacity: 0.9;
 }
+
+/* Mobile media query */
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    .game__title {
+        font-size: 1.5rem;
+    }
+
+    .game__input {
+        font-size: 0.9rem;
+    }
+
+    .game__button--play,
+    .game__button--reset {
+        font-size: 0.9rem;
+    }
+
+    .game__scoreboard {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet media query */
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .game__title {
+        font-size: 1.8rem;
+    }
+
+    .game__input {
+        font-size: 1rem;
+    }
+
+    .game__button--play,
+    .game__button--reset {
+        font-size: 1rem;
+    }
+
+    .game__scoreboard {
+        font-size: 1.1rem;
+    }
+}
+
+/* Desktop media query */
+
+@media (min-width: 901px) {
+    .game__title {
+        font-size: 2rem;
+    }
+
+    .game__input {
+        font-size: 1.1rem;
+    }
+
+    .game__button--play,
+    .game__button--reset {
+        font-size: 1.1rem;
+    }
+
+    .game__scoreboard {
+        font-size: 1.2rem;
+    }
+}
