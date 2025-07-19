@@ -10,18 +10,15 @@ html {
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: rgb(240, 244, 248);
+    background: url('https://c4.wallpaperflare.com/wallpaper/899/325/192/minimalism-rock-paper-scissors-wallpaper-preview.jpg');
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
 }
 
 .game {
-    background-color: rgb(255, 255, 255);
     padding: 1.875rem 2.5rem;
-    border-radius: 0.8rem;
-    box-shadow: 0 0.3rem 1.3rem rgba(0, 0, 0, 0.1);
     width: 100%;
     text-align: center;
 }
