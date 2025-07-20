@@ -13,8 +13,8 @@
         4. Create a function to reset the game:
             - Reset all game variables.
             - Clear the input field and result display.
-      */    
-      
+      */
+
       //Initializing the game variables
       
       let wins = 0;
