@@ -1,3 +1,20 @@
+      // Rock, Paper, Scissors Game Script
+
+      /*
+        Pseudo-code:
+        1. Initialize game variables (wins, losses, ties).
+        2. Create a function to play the game:
+            - Get user input.
+            - Validate input (must be rock, paper, or scissors).
+            - Generate computer choice.
+            - Compare user input with computer choice.
+            - Determine the result (win, loss, tie).
+        3. Update the scoreboard with the results.
+        4. Create a function to reset the game:
+            - Reset all game variables.
+            - Clear the input field and result display.
+      */    
+      
       //Initializing the game variables
       
       let wins = 0;
